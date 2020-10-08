@@ -2,4 +2,8 @@
     <string name="app_name">Ajedrez</string>
     <string name="msj1">Comenzar</string>
     <string name="msj2">Prueba pre-ingreso ANDROID</string>
+    <string name="msj3">A continuación puede seleccionar cualquier configuración:</string>
+    <string name="msj4">Caso 1</string>
+    <string name="msj5">Caso 2</string>
+    <string name="msj6">Caso 3</string>
 </resources>
