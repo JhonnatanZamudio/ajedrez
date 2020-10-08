@@ -6,4 +6,7 @@
     <string name="msj4">Caso 1</string>
     <string name="msj5">Caso 2</string>
     <string name="msj6">Caso 3</string>
+    <string name="msj7">Jugador Blancas</string>
+    <string name="msj8">(EN TURNO)</string>
+    <string name="msj9">Jugador Negras</string>
 </resources>

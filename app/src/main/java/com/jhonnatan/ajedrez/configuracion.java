@@ -29,7 +29,7 @@ public class configuracion extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //cambiamos de pantalla a registrate
-                Intent intent = new Intent(configuracion.this, caso1.class);
+                Intent intent = new Intent(configuracion.this, tablero.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.left_in,R.anim.left_out);
                 finish();
@@ -41,7 +41,7 @@ public class configuracion extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //cambiamos de pantalla a registrate
-                Intent intent = new Intent(configuracion.this, caso2.class);
+                Intent intent = new Intent(configuracion.this, tablero.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.left_in,R.anim.left_out);
                 finish();
@@ -53,7 +53,7 @@ public class configuracion extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //cambiamos de pantalla a registrate
-                Intent intent = new Intent(configuracion.this, caso3.class);
+                Intent intent = new Intent(configuracion.this, tablero.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.left_in,R.anim.left_out);
                 finish();
