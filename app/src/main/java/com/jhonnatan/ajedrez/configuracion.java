@@ -30,6 +30,12 @@ public class configuracion extends AppCompatActivity {
             public void onClick(View v) {
                 //cambiamos de pantalla a registrate
                 Intent intent = new Intent(configuracion.this, tablero.class);
+                //enviamos los datos capturados
+                intent.putExtra("CASO", "1");
+                intent.putExtra("FILAALFIL", "6");
+                intent.putExtra("COLUMNAALFIL", "5");
+                intent.putExtra("FILATORRE", "3");
+                intent.putExtra("COLUMNATORRE", "2");
                 startActivity(intent);
                 overridePendingTransition(R.anim.left_in,R.anim.left_out);
                 finish();
@@ -42,6 +48,12 @@ public class configuracion extends AppCompatActivity {
             public void onClick(View v) {
                 //cambiamos de pantalla a registrate
                 Intent intent = new Intent(configuracion.this, tablero.class);
+                //enviamos los datos capturados
+                intent.putExtra("CASO", "2");
+                intent.putExtra("FILAALFIL", "2");
+                intent.putExtra("COLUMNAALFIL", "3");
+                intent.putExtra("FILATORRE", "6");
+                intent.putExtra("COLUMNATORRE", "3");
                 startActivity(intent);
                 overridePendingTransition(R.anim.left_in,R.anim.left_out);
                 finish();
@@ -54,6 +66,12 @@ public class configuracion extends AppCompatActivity {
             public void onClick(View v) {
                 //cambiamos de pantalla a registrate
                 Intent intent = new Intent(configuracion.this, tablero.class);
+                //enviamos los datos capturados
+                intent.putExtra("CASO", "3");
+                intent.putExtra("FILAALFIL", "2");
+                intent.putExtra("COLUMNAALFIL", "2");
+                intent.putExtra("FILATORRE", "7");
+                intent.putExtra("COLUMNATORRE", "4");
                 startActivity(intent);
                 overridePendingTransition(R.anim.left_in,R.anim.left_out);
                 finish();

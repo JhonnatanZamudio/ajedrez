@@ -9,4 +9,10 @@
     <string name="msj7">Jugador Blancas</string>
     <string name="msj8">(EN TURNO)</string>
     <string name="msj9">Jugador Negras</string>
+    <string name="msj10">EXITOSO</string>
+    <string name="msj11">El alfil ha capturado correctamente a la torre.</string>
+    <string name="msj12">Debe seleccionar la Torre para ser capturada.</string>
+    <string name="msj13">IMPORTANTE</string>
+    <string name="msj14">La torre ha capturado correctamente el alfil.</string>
+    <string name="msj15">Debe seleccionar el alfil para ser capturado.</string>
 </resources>
